@@ -1,30 +1,38 @@
 ---
-import { Image } from "astro:assets";
 import Card from "../ui/Card.astro";
 import Section from "./Section.astro";
 
+import p1 from "../../assets/team/t1.png";
+import p2 from "../../assets/team/t2.png";
+import p3 from "../../assets/team/t3.png";
 const cards = [
   {
     index: 0,
     title:
-      "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
-    link: "https://google.com",
+    "Partnering with Zindi Muse Media transformed our brand visibility. Their strategies helped us triple our online engagement in just 3 months.",
+    author: "Mr. Akhil Gupta",
+    desgination:"CED & Designer, Bonsoir",
+    bg:p1
   },
   {
     index: 1,
     title:
-      "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.",
-    link: "https://google.com",
+      "We are happy that we are on the cutting edge with our new website and have synergised our entire web experience Gocial media handles. Amazon store etc with the website.",
+      author: "Mr. Amar Wadhwa",
+    desgination:"Marketing Consultant at Halonix",
+    bg:p1
   },
   {
     index: 1,
     title:
       "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
-    link: "https://google.com",
+      author: "Mr. Vijay Carg",
+    desgination:"Managing Director, Karara Ceramics",
+    bg:p1
   },
 ];
 
-import larrow from "../../assets/icon3.svg";
+
 import SectionTitle from "../ui/SectionTitle.astro";
 ---
 
@@ -37,15 +45,17 @@ import SectionTitle from "../ui/SectionTitle.astro";
     {
       cards.map((card) => (
         <Card>
-          <div class="flex p-[60px] h-full bg-dark text-gray rounded-[45px] m-[1px]">
+          <div class="flex p-[60px] h-full bg-dark text-gray w-full max-w-[400px] rounded-[45px] m-[1px]"
+           style="background-image: url('../../assets/bg1.jpeg');"
+          >
             <div class="flex flex-col gap-5">
               <p>{card.title}</p>
-              <a href={card.link} class="flex items-center gap-[15px]">
-                <span class="text-green">Case Info</span>
-                <picture>
-                  <Image src={larrow} alt="Arrow pointing up right" />
-                </picture>
-              </a>
+            <div>
+              <span class="text-green">{card.author}</span>
+                <span class="text-green">{card.desgination}</span>
+
+            </div>
+           
             </div>
           </div>
         </Card>
