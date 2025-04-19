@@ -1,32 +1,32 @@
 [
-    {
-        "title": "Starter",
-        "description": "Best option for personal use & for your next project",
-        "price": 29,
-        "devCount": "1 developer",
-        "support": "6 months",
-        "update": "6 months",
-        "action": "Get Started",
-        "link": "/"
-    },
-    {
-        "title": "Company",
-        "description": "Relevant for multiple users, extended & premium support",
-        "price": 99,
-        "devCount": "10 developers",
-        "support": "24 months",
-        "update": "24 months",
-        "action": "Get Started",
-        "link": "/"
-    },
-    {
-        "title": "Enterprise",
-        "description": "Best for large scale uses and extended redistribution rights",
-        "price": 499,
-        "devCount": "100+ developers",
-        "support": "36 months",
-        "update": "36 months",
-        "action": "Get Started",
-        "link": "/"
-    }
+  {
+    "title": "100% Market Ready",
+    "description": "Every campaign is built with deep audience research, trend mapping, and cultural relevance—so your brand shows up at the right time, in the right way.",
+    "price": 29,
+    "devCount": "1 developer",
+    "support": "6 months",
+    "update": "6 months",
+    "action": "Get Started",
+    "link": "../assets/pics/cart.jpg"
+  },
+  {
+    "title": "Creator-Led Execution",
+    "description": "We partner with influencers who know how to tell your story authentically, turning content into conversation and followers into fans.",
+    "price": 99,
+    "devCount": "10 developers",
+    "support": "24 months",
+    "update": "24 months",
+    "action": "Get Started",
+    "link": "/"
+  },
+  {
+    "title": "Results Driven Campaigns",
+    "description": "Our strategies are backed by data, optimized for performance, and focused on measurable results—from engagement to conversions.",
+    "price": 499,
+    "devCount": "100+ developers",
+    "support": "36 months",
+    "update": "36 months",
+    "action": "Get Started",
+    "link": "/"
+  }
 ]
