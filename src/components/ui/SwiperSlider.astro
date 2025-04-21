@@ -27,18 +27,18 @@ const processedTestimonials = Testimonials.map((item, index, array) => ({
           role="group"
           aria-label={`${item.index} / ${item.length}`}
         >
-          <div class="flex flex-row justify-center items-center py-[48px] px-6 sm:px-[52px]">
-           <div>
-            <img src={item.link} class="h-6 w-6"/>
-            <p class="bubble">
-              "{item.comment}"
-            </p>
+         <div class="bubble flex items-start justify-between gap-4">
+  <p class="text-left w-full">
+    "{item.comment}"
+  </p>
+  <img
+    src={item.link}
+    alt="badge"
+    class="h-6 w-6 object-contain shrink-0 mt-1 rounded-md"
+  />
+</div>
 
-           </div>
-      
-           
-          </div>
-          <div class="w-full px-10 sm:px-20 ">
+          <div class="mt-8 w-full px-10 sm:px-20 ">
             <div class="text-green font-medium">{item.name}</div>
             <div>{item.role}</div>
           </div>
