@@ -7,7 +7,7 @@
     "support": "6 months",
     "update": "6 months",
     "action": "Get Started",
-    "link": "../assets/pics/cart.jpg"
+    "link": "/assets/project.jpg"
   },
   {
     "title": "Creator-Led Execution",
@@ -17,7 +17,7 @@
     "support": "24 months",
     "update": "24 months",
     "action": "Get Started",
-    "link": "/"
+    "link": "/assets/influencer.jpg"
   },
   {
     "title": "Results Driven Campaigns",
@@ -27,6 +27,6 @@
     "support": "36 months",
     "update": "36 months",
     "action": "Get Started",
-    "link": "/"
+    "link": "/assets/datascience.jpg"
   }
 ]
