@@ -167,3 +167,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+#toast.show {
+  opacity: 1;
+}
+
+#toast.hide {
+  opacity: 0;
+}
