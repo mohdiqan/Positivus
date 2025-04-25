@@ -33,7 +33,7 @@ export const POST: APIRoute = async ({ request }) => {
   // };
   const mailOptions = {
     from: "jamywardy636@gmail.com", // fixed authenticated sender
-    to: "mohdiqan123@gmail.com",
+    to: "connect@zindimusemedia.com",
     replyTo: email, // user's email for reply
     subject: `New message from ${name}`,
     text: `You have a new message from ${name} (${email}):\n\n${message}\n\nBest regards,\nYour Website Team`,
